@@ -3,7 +3,7 @@ from src.coins import Coin
 
 def test_create_coin():
     coin = Coin(current_side="Zahl")
-    assert isinstance(coin) == Coin
+    assert isinstance(coin, Coin)
 
 
 def test_coin_flip():

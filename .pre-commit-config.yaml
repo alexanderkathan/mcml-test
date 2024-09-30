@@ -52,6 +52,7 @@ repos:
     rev: 6.3.0
     hooks:
     -   id: pydocstyle
+        exclude: ^docs/
         args:
           - --ignore-decorators=property
 
