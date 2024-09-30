@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mcml-test"
+version = "0.1.0"
+description = "Test of creating a python package during the MCML workshop."
+authors = ["Alexander Kathan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pre-commit = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
